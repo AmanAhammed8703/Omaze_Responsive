@@ -1,0 +1,294 @@
+.navbar{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+    
+}
+header{
+    background-color: rgba(0, 0, 0, 0.952);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.navbar a:hover{
+    background-color: rgb(0, 186, 243);
+    height: 4em;
+    
+}
+.navbar-nav a{
+    width: 80px;
+    text-align: center;
+}
+
+body{
+    margin: 0%;
+}
+.img1{
+    height: 100%;
+}
+.div1{
+   
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.76) 0%, rgba(0,0,0,0.6979925759366247) 52%, rgba(0,212,255,0) 100%),
+    url(https://cdn.sanity.io/images/qxkhuw10/production/6cf2def7dc1a35370e4eeba83f06bcf84b650609-1440x630.jpg?rect=320,0,1120,630&w=1440&h=810);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.div2{
+   
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.76) 0%, rgba(0,0,0,0.6979925759366247) 52%, rgba(0,212,255,0) 100%),
+    url(https://cdn.sanity.io/images/qxkhuw10/production/79ba1296833846130230a40f1ea21d4d454976e5-1440x630.jpg?rect=286,0,1120,630&w=1440&h=810);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.div3{
+   
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.76) 0%, rgba(0,0,0,0.6979925759366247) 52%, rgba(0,212,255,0) 100%),
+    url(https://cdn.sanity.io/images/qxkhuw10/production/cd72a4d45f594e4f5da383235007b1b0aae8e884-1440x630.jpg?rect=207,0,1120,630&w=1440&h=810);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.hel{
+    position: relative;
+    font-size: 5vw;
+    margin-top: 15%;
+    margin-left: 10%;
+    color: white;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.hel1{
+    position: relative;
+    font-size: 2vw;
+    margin-top: 1%;
+    margin-left: 10%;
+    color: white;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.btn1{
+    padding: 0.5%;
+    width: 15vw;
+    border-radius: 33px;
+    margin-top: 3vw;
+    margin-bottom: 11vw;
+    margin-left: 10%;
+    font-size: 1.25vw;
+    background-color: yellow;
+    border: solid;
+    border-width: 1px;
+
+}
+.btn2{
+    padding: 0.5%;
+    width: 15vw;
+    border-radius: 33px;
+    margin-top: 3vw;
+    margin-bottom: 16vw;
+    margin-left: 10%;
+    font-size: 1.25vw;
+    background-color: yellow;
+    border: solid;
+    border-width: 1px;
+
+}
+.div41{
+    background-color:rgba(255, 249, 209, 1) ;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    width: 80vw;
+    margin-bottom: 5vw;
+}
+.div5{
+    
+    background: url(//cdn.shopify.com/s/files/1/0043/8471/8938/files/NewBrand_Winner_Homepage_Desktop.jpg?v=1621905106);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hel2{
+    position: relative;
+    font-size: 4vw;
+    margin-top: 3%;
+    
+    color: white;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.hel21{
+    position: relative;
+    font-size: 3vw;
+    margin-top: 15%;
+    
+    color: white;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+.btn3{
+    padding: 0.5%;
+    width: 15vw;
+    border-radius: 33px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 40%;
+    font-size: 1.25vw;
+    background-color: yellow;
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+}
+.imageslide{
+    margin-top: 1%;
+    background-color: #153b4a;
+}
+.inner{
+    margin-top: 4%;
+    margin-left: 15%;
+    width: 70%;
+    margin-bottom: 8%;
+}
+.imageslide{
+    color: white;
+    padding-top: 5%;
+    text-align: center;
+    
+}
+.ifr{
+    width:70vw;
+    height:35vw;
+}
+.div7{
+    background-color: white;
+}
+.div7 h3{
+    text-align: center;
+    margin-top: 1%;
+    font-weight: 700;
+}
+.logos{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.div7 h6{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25vw;
+}
+.div7 a{
+    text-decoration: none;
+}
+.div8{
+    background-color: #090f15;
+    
+}
+.div8 h3{
+    
+    margin-top: 1%;
+    font-weight: 700;
+    color: white;
+}
+
+.div8 svg{
+    
+    width: 25px;
+}
+.div8 h6{
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+}
+.div8 a{
+    text-decoration: none;
+    color: white;
+}
+.ul1{
+text-align: center;
+}
+.ul1 li{
+    display: inline;
+}
+.btn11{
+    background-color: #090f15;
+    color: white;
+    border-radius: 0.5vw;
+    border: solid;
+    border-width: 0.05vw;
+    margin-top: 1%;
+}
+hr{
+    color: white;
+}
+.ul2{
+    text-align: center;
+}
+.ul3 li{
+    display: inline;
+    color: white;
+}
+.ul3{
+    text-align: center;
+}
+.btn12{
+    background-color: #090f15;
+    color: rgb(255, 255, 255);
+    border-radius: 0.5vw;
+    border: solid;
+    border-width: 0.05vw;
+    margin-top: 1%;
+    border-color: rgba(250, 235, 215, 0);
+}
+@media(max-width:700px){
+.btn2,.btn3,.btn1{
+    font-size: 2.5vw;
+    width: 20vw;
+}
+}
+@media(max-width:700px){
+.hel1,.hel21{
+    font-size: 3vw;
+    
+}
+}
+@media(max-width:700px){
+.div7 h6{
+    font-size: 3vw;
+    
+}
+}
+@media(max-width:990px){
+.colimg{
+    
+   display: none; 
+}
+}
+.colimg1{
+    width: 100px;
+   
+}
+@media(min-width:990px){
+    .colimg1{
+        
+       display: none; 
+    }
+    }
+
+.colimg{
+    margin-top: 20px;
+}
