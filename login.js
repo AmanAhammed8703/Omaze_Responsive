@@ -2,6 +2,10 @@ jQuery.validator.addMethod('mypassword', function(value, element)
 {
    return this.optional(element) || (value.match(/[a-zA-Z]/) && value.match(/[0-9]/));
 });
+jQuery.validator.addMethod('mypassword1', function(value, element) 
+{
+   return this.optional(element) || /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test( value );
+});
     
     
 
@@ -14,7 +18,8 @@ jQuery.validator.addMethod('mypassword', function(value, element)
             },
             mail:{
                 required:true,
-                email:true
+                
+                mypassword1:true
             },
             pword:{
                 required:true,
@@ -36,8 +41,9 @@ jQuery.validator.addMethod('mypassword', function(value, element)
             
             },
             mail:{
-                required:"Enter tour emailaddress!",
-                email:"Email should contain @!"
+                required:"Enter your email address!",
+                
+                mypassword1:"should have . in email!"
             },
             pword:{
                 required:"Please enter a password!",
